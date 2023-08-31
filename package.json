@@ -1,0 +1,28 @@
+{
+  "name": "figma-vite",
+  "version": "1.0.0",
+  "description": "Sample Figma plugin using Vite Preact template",
+  "author": {
+    "name": "Mykhaylo Ryechkin",
+    "url": "https://github.com/mryechkin"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && npm run build:main",
+    "build:main": "esbuild lib/code.ts --bundle --outfile=dist/code.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.16.0"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.76.0",
+    "@preact/preset-vite": "^2.5.0",
+    "prettier": "^3.0.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-singlefile": "^0.13.5"
+  }
+}

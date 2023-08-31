@@ -1,0 +1,13 @@
+{
+  "name": "figma-vite",
+  "id": "1266889489796006566",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "ui": "dist/index.html",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}
